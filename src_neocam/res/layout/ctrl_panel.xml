@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button
+        android:id="@id/ctrl_panel_anchor"
+        android:padding="0.0dip"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:scaleType="fitCenter" />
+    <ImageButton
+        android:id="@id/settings"
+        android:padding="0.0px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ctrl_settings"
+        android:scaleType="center"
+        android:onClick="clickedSettings"
+        android:contentDescription="@string/action_settings"
+        style="?android:attr/borderlessButtonStyle" />
+    <ImageButton
+        android:id="@id/popup"
+        android:padding="0.0px"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ctrl_tune"
+        android:scaleType="center"
+        android:onClick="clickedPopup"
+        android:contentDescription="@string/action_popup"
+        style="?android:attr/borderlessButtonStyle" />
+    <ImageButton
+        android:id="@id/focus_mode"
+        android:padding="0.0px"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ctrl_focus_mode"
+        android:scaleType="center"
+        android:onClick="clickedPopup"
+        android:contentDescription="@string/focus_mode"
+        style="?android:attr/borderlessButtonStyle" />
+    <ImageButton
+        android:id="@id/flash_mode"
+        android:padding="0.0px"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ctrl_flash_on"
+        android:scaleType="center"
+        android:onClick="clickedPopup"
+        android:contentDescription="@string/flash_mode"
+        style="?android:attr/borderlessButtonStyle" />
+    <Button
+        android:id="@id/iso"
+        android:padding="0.0px"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:text="A"
+        android:onClick="clickedPopup"
+        android:contentDescription="@string/iso"
+        style="?android:attr/borderlessButtonStyle" />
+    <ImageButton
+        android:id="@id/photo_mode"
+        android:padding="0.0px"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ctrl_mode_standard"
+        android:scaleType="center"
+        android:onClick="clickedPopup"
+        android:contentDescription="@string/photo_mode"
+        style="?android:attr/borderlessButtonStyle" />
+    <ImageButton
+        android:id="@id/white_balance"
+        android:padding="0.0px"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ctrl_wb"
+        android:scaleType="center"
+        android:onClick="clickedPopup"
+        android:contentDescription="@string/white_balance"
+        style="?android:attr/borderlessButtonStyle" />
+    <ImageButton
+        android:id="@id/scene_mode"
+        android:padding="0.0px"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ctrl_scene"
+        android:scaleType="center"
+        android:onClick="clickedPopup"
+        android:contentDescription="@string/scene_mode"
+        style="?android:attr/borderlessButtonStyle" />
+    <ImageButton
+        android:id="@id/color_effect"
+        android:padding="0.0px"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ctrl_color_effect"
+        android:scaleType="center"
+        android:onClick="clickedPopup"
+        android:contentDescription="@string/color_effect"
+        style="?android:attr/borderlessButtonStyle" />
+    <ImageButton
+        android:id="@id/expo_metering_area"
+        android:padding="0.0px"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ctrl_expo_metering"
+        android:scaleType="center"
+        android:onClick="clickedExpoMetering"
+        android:contentDescription="@string/expo_metering_area"
+        style="?android:attr/borderlessButtonStyle" />
+    <ImageButton
+        android:id="@id/auto_adjustment_lock"
+        android:padding="0.0px"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ctrl_lock"
+        android:scaleType="center"
+        android:onClick="clickedAutoAdjustmentLock"
+        android:contentDescription="@string/auto_adjustment_lock"
+        style="?android:attr/borderlessButtonStyle" />
+    <ImageButton
+        android:id="@id/exposure"
+        android:padding="0.0px"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ctrl_exposure"
+        android:scaleType="center"
+        android:onClick="clickedExposure"
+        android:contentDescription="@string/exposure"
+        style="?android:attr/borderlessButtonStyle" />
+    <ImageButton
+        android:id="@id/switch_camera"
+        android:padding="0.0px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ctrl_camera_front"
+        android:scaleType="center"
+        android:onClick="clickedSwitchCamera"
+        android:contentDescription="@string/switch_to_front_camera"
+        style="?android:attr/borderlessButtonStyle" />
+    <ImageButton
+        android:id="@id/face_detection"
+        android:padding="0.0px"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ctrl_face"
+        android:scaleType="center"
+        android:onClick="clickedFaceDetection"
+        android:contentDescription="@string/enable_face_detection"
+        style="?android:attr/borderlessButtonStyle" />
+    <ImageButton
+        android:id="@id/audio_control"
+        android:padding="0.0px"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ctrl_mic"
+        android:scaleType="center"
+        android:onClick="clickedAudioControl"
+        android:contentDescription="@string/audio_control_start"
+        style="?android:attr/borderlessButtonStyle" />
+    <ImageButton
+        android:id="@id/selfie_mode"
+        android:padding="0.0px"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ctrl_selfie"
+        android:scaleType="center"
+        android:onClick="clickedSelfieMode"
+        android:contentDescription="@string/selfie_mode_start"
+        style="?android:attr/borderlessButtonStyle" />
+</merge>

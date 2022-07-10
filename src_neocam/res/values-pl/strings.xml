@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="translation_author">Jacek Buczyński</string>
+    <string name="intro_ok">OK (Ta wiadomość nie pokaże się ponownie)</string>
+    <string name="answer_yes">Tak</string>
+    <string name="answer_no">Nie</string>
+    <string name="on">Włączone</string>
+    <string name="off">Wyłączone</string>
+    <string name="auto">Automatyczny</string>
+    <string name="default_str">Domyślne</string>
+    <string name="none">Brak</string>
+    <string name="unlimited">Bez limitu</string>
+    <string name="device_default">Domyślny urządzenia</string>
+    <string name="sorry">Sorry</string>
+    <string name="white">Biały</string>
+    <string name="gray">Szary</string>
+    <string name="black">Czarny</string>
+    <string name="yellow">Żółty</string>
+    <string name="red">Czerwony</string>
+    <string name="green">Zielony</string>
+    <string name="blue">Niebieski</string>
+    <string name="choose_save_location">Wybierz miejsce zapisywania:</string>
+    <string name="clear_folder_history">Wyczyść historię folderów</string>
+    <string name="clear_folder_history_question">Wyczyścić historię folderów?</string>
+    <string name="choose_another_folder">Wybierz inny folder</string>
+    <string name="changed_save_location">Zmieniono miejsce zapisywania na:</string>
+    <string name="parent_folder">Nadrzędny folder</string>
+    <string name="new_folder">Nowy folder</string>
+    <string name="cant_write_folder">Nie można zapisywać w tym folderze</string>
+    <string name="cant_access_folder">Brak dostępu do tego folderu</string>
+    <string name="enter_new_folder">Wpisz nazwnę nowego folderu</string>
+    <string name="failed_create_folder">Nie można utworzyć folderu</string>
+    <string name="folder_exists">Folder już istnieje</string>
+    <string name="saf_select_save_location">Wybierz miejsce zapisu</string>
+    <string name="saf_cancelled">Storage Access Framework anulowany</string>
+    <string name="saf_permission_failed">Nie można zapisać w tym folderze</string>
+    <string name="angle">Kąt</string>
+    <string name="direction">Kierunek</string>
+    <string name="zoom">Przybliżenie</string>
+    <string name="free_memory">Wolne</string>
+    <string name="fps">kl/s</string>
+    <string name="aperture">Przysłona</string>
+    <string name="photo">Zdjęcie</string>
+    <string name="video">Film</string>
+    <string name="action_popup">Ustawienia</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="audio_control_start">Rozpoczęto nasłuch</string>
+    <string name="audio_control_stop">Zakończono nasłuch</string>
+    <string name="back_camera">Tylny aparat</string>
+    <string name="exposure">Ekspozycja</string>
+    <string name="front_camera">Przedni aparat</string>
+    <string name="gallery">Galeria</string>
+    <string name="record_video">Nagraj film</string>
+    <string name="share">Udostępnij zdjęcie</string>
+    <string name="start_video">Rozpoczęto nagrywanie filmu</string>
+    <string name="stop_video">Zakończono nagrywanie filmu</string>
+    <string name="switch_to_back_camera">Przełącz na aparat tylny</string>
+    <string name="switch_to_front_camera">Przełącz na aparat przedni</string>
+    <string name="switch_to_photo">Przełącz na tryb fotografowania</string>
+    <string name="switch_to_video">Przełącz na tryb filmowania</string>
+    <string name="take_photo">Zrób zdjęcie</string>
+    <string name="trash">Usuń ostatnie zdjęcie</string>
+    <string name="screen_lock_message_1">[ZABLOKOWANE:</string>
+    <string name="screen_lock_message_2">Przesuń aby odblokować]</string>
+    <string name="audio_disabled">Dźwięk wyłączony</string>
+    <string name="audio_listener_started">Wydaj głośny dźwięk</string>
+    <string name="cancelled_timer">Anulowano samowyzwalacz</string>
+    <string name="capturing">Przechwytywanie…</string>
+    <string name="failed_to_reconnect_camera">Nie udało się połączyć z aparatem</string>
+    <string name="location_not_available">Lokalizacja GPS niedostępna</string>
+    <string name="max_duration">Maksymalny czas trwania</string>
+    <string name="no_gallery_app">Brak aplikacji galerii</string>
+    <string name="photo_deleted">Zdjęcie skasowane</string>
+    <string name="repeats_to_go">pozostało powtórzeń</string>
+    <string name="screen_is_locked">"Ekran zablokowany
+przesuń aby odblokować"</string>
+    <string name="speech_recognizer_started">Powiedz \"cheese\"</string>
+    <string name="started_recording_video">Rozpoczęto nagrywanie wideo</string>
+    <string name="started_timer">Włączono timer</string>
+    <string name="stopped_recording_video">Zatrzymano nagrywanie wideo</string>
+    <string name="taking_photo">Wykonywanie zdjęcia</string>
+    <string name="unlocked">Odblokowano</string>
+    <string name="video_max_duration">Nagranie osiągnęło maksymalną długość</string>
+    <string name="video_max_filesize">Nagranie osiągnęło maksymalny rozmiar pliku</string>
+    <string name="failed_to_open_camera_1">BŁĄD APARATU</string>
+    <string name="failed_to_open_camera_2">APARAT MOŻE BYĆ UŻYWANY</string>
+    <string name="failed_to_open_camera_3">PRZEZ INNĄ APLIKACJĘ</string>
+    <string name="audio_listener_failed">Nie udało się uruchomić nasłuchu</string>
+    <string name="auto_stabilise_not_supported">"Autopoziomowanie niedostępne
+na tym urządzeniu"</string>
+    <string name="failed_to_auto_stabilise">Nie udało się wypoziomować</string>
+    <string name="failed_to_record_video">Nie udało się nagrać wideo</string>
+    <string name="failed_to_save_photo">Nie udało się zapisać zdjęcia</string>
+    <string name="failed_to_save_photo_raw">Nie udało się zapisać zdjęcia w RAW</string>
+    <string name="failed_to_save_video">Nie udało się zapisać pliku wideo</string>
+    <string name="failed_to_stamp">Nie udało się dodać stempla</string>
+    <string name="failed_to_start_camera_preview">Nie udało się</string>
+    <string name="failed_to_process_hdr">Tworzenie obrazu HDR nie powiodło się</string>
+    <string name="failed_to_take_picture">Nie udało się zrobić zdjęcia</string>
+    <string name="not_supported">nie wspierane na Twoim urządzeniu</string>
+    <string name="video_error_server_died">Serwer padł, wideo wstrzymane</string>
+    <string name="video_error_unknown">Nieznany błąd, wideo wstrzymane</string>
+    <string name="video_may_be_corrupted">Błąd, nagranie może być uszkodzone</string>
+    <string name="video_no_free_space">Brak wystarczającej ilości miejsca by zapisać film</string>
+    <string name="video_power_critical">"Filmowanie zatrzymane
+Krytyczny poziom baterii"</string>
+    <string name="no_permission">POZWOLENIA NIE SĄ DOSTĘPNE</string>
+    <string name="permission_record_audio_not_available">Brak pozwolenia na dostęp do mikrofonu</string>
+    <string name="permission_location_not_available">Brak pozwolenia na dostęp do lokalizacji</string>
+    <string name="permission_rationale_title">Wymagane pozwolenie</string>
+    <string name="permission_rationale_camera">Wymagane pozwolenie na dostęp do aparatu</string>
+    <string name="permission_rationale_storage">Pozwolenie na odczyt/zapis jest wymagane</string>
+    <string name="permission_rationale_record_audio">Pozwolenie na dostęp do mikrofonu jest wymagane do nagrywania filmów z dźwiękiem</string>
+    <string name="auto_stabilise_info">"Autopoziomowanie obraca zdjęcia tak jakby były zrobione przy poziomicy.
+
+Obrócone zdjęcia będą w nieco mniejszej rozdzielczości, gdyż po obróceniu konieczne jest wykadrowanie."</string>
+    <string name="hdr_info">"Tryb HDR jest przydatny w ujęciach z obszarami o dużych różnicach w jasności. Polega on na wykonaniu kilku zdjęć o różnej ekspozycji i połączeniu w jeden obraz.
+
+Zauważ, że tryb HDR jest nieodpowiedni do fotografowania poruszających się obiektów, może to skutkować w mniej dokładną reprodukcję kolorów.
+
+Wykonanie zdjęcia w HDR jest wolniejsze."</string>
+    <string name="preference_reset_question">Jeśteś pewien, że chcesz przywrócić wszystkie ustawienia HedgeCam do wartości domyślnych?</string>
+    <string name="dont_show_again">Nie pokazuj ponownie</string>
+    <string name="mb_abbreviation">MB</string>
+    <string name="gb_abbreviation">GB</string>
+    <string name="metres_abbreviation">m</string>
+    <string name="seconds_abbreviation">s</string>
+    <string name="focus_distance">Odległość ostrości</string>
+    <string name="infinite">Nieskończoność</string>
+    <string name="photo_mode">Tryb fotografowania</string>
+    <string name="photo_mode_standard">Std</string>
+    <string name="photo_mode_dro">DRO</string>
+    <string name="photo_mode_hdr">HDR</string>
+    <string name="photo_mode_expo_bracketing">Bracketing ekspozycji</string>
+    <string name="flash_mode">Tryb lampy</string>
+    <string name="f_torch">Latarka</string>
+    <string name="f_red_eye">Czerwone oczy</string>
+    <string name="f_screen_auto">Błysk ekranowy auto</string>
+    <string name="f_screen_on">Błysk ekranowy włączony</string>
+    <string name="focus_mode">Tryb autofokusa</string>
+    <string name="fm_auto">Automatycznie</string>
+    <string name="fm_infinity">Nieskończoność</string>
+    <string name="fm_macro">Makro</string>
+    <string name="fm_manual">Ręczny</string>
+    <string name="fm_fixed">Stały</string>
+    <string name="fm_edof">Rozszerzony</string>
+    <string name="fm_continuous">Ciągły</string>
+    <string name="scene_mode">Tryb scenerii</string>
+    <string name="sm_action">Akcja</string>
+    <string name="sm_barcode">Kod kreskowy</string>
+    <string name="sm_backlight">Podświetlenie</string>
+    <string name="sm_beach">Plaża</string>
+    <string name="sm_candlelight">Przy świecach</string>
+    <string name="sm_fireworks">Fajerwerki</string>
+    <string name="sm_flowers">Kwiaty</string>
+    <string name="sm_landscape">Poziomo</string>
+    <string name="sm_night">Noc</string>
+    <string name="sm_night_portrait">Nocny portret</string>
+    <string name="sm_normal">Normalny</string>
+    <string name="sm_party">Impreza</string>
+    <string name="sm_portrait">Pionowo</string>
+    <string name="sm_snow">Śnieg</string>
+    <string name="sm_sports">Sport</string>
+    <string name="sm_steadyphoto">Stabilne ujęcie</string>
+    <string name="sm_sunset">Zachód słońca</string>
+    <string name="sm_theatre">Teatr</string>
+    <string name="white_balance">Balans bieli</string>
+    <string name="wb_manual">Ręczny</string>
+    <string name="wb_cloudy_daylight">Zachmurzenie</string>
+    <string name="wb_daylight">Światło dzienne</string>
+    <string name="wb_fluorescent">Świetlówka</string>
+    <string name="wb_incandescent">Żarówka</string>
+    <string name="color_effect">Efekt koloru</string>
+    <string name="ce_aqua">Woda</string>
+    <string name="ce_mono">Monochromatyczny</string>
+    <string name="ce_negative">Negatyw</string>
+    <string name="ce_none">Brak</string>
+    <string name="ce_posterize">Pocztówka</string>
+    <string name="ce_sepia">Sepia</string>
+    <string name="ce_solarize">Solaryzacja</string>
+    <string name="ce_whiteboard">Biała tablica</string>
+    <string name="preference_category_camera_controls">Sterowanie aparatem</string>
+    <string name="preference_face_detection">Wykrywanie twarzy</string>
+    <string name="preference_face_detection_summary">Używa wykrywania twarzy zamiast obszarów ostrości</string>
+    <string name="preference_touch_capture">Dotknij, aby zrobić zdjęcie</string>
+    <string name="preference_touch_capture_summary">Zrób zdjęcie poprzez pojedyncze lub podwójne dotknięcie</string>
+    <string name="preference_timer">Samowyzwalacz</string>
+    <string name="preference_burst_mode">Seria</string>
+    <string name="burst_unlimited">Bez limitu</string>
+    <string name="preference_burst_interval">Interwał trybu seryjnego</string>
+    <string name="preference_audio_control">Aktywacja za pomocą dźwięków</string>
+    <string name="vc_loud_noise">Głośny dźwięk</string>
+    <string name="vc_cheese">Komenda głosowa: \"cheese\"</string>
+    <string name="preference_audio_noise_control_sensitivity">Wrażliwość sterowania dźwiękiem</string>
+    <string name="preference_audio_noise_control_sensitivity_summary">"%s
+
+Poziom wrażliwości na dźwięki aktywujące aparat"</string>
+    <string name="preference_screen_sounds">Dźwięki</string>
+    <string name="preference_shutter_sound">Dźwięk migawki</string>
+    <string name="preference_shutter_sound_summary">"%s
+
+Odtwarza dźwięk podczas wykonywania zdjęcia"</string>
+    <string name="preference_timer_beep">Dźwięk samowyzwalacza</string>
+    <string name="preference_timer_beep_summary">Dźwięk pikania podczas odliczania samowyzwalacza lub między zdjęciami serii</string>
+    <string name="preference_timer_speak">Głosowe odliczanie</string>
+    <string name="preference_timer_speak_summary">Głosowe odliczanie dla wyzwalacza lub zdjęć seryjnych (od 60 sekund)</string>
+    <string name="ss_system">System</string>
+    <string name="ss_notification">Powiadomienia</string>
+    <string name="ss_music">Muzyka</string>
+    <string name="preference_screen_gui">Interfejs fotografowania…</string>
+    <string name="exposure_compensation">Korekta ekspozycji</string>
+    <string name="preference_show_zoom_controls">Pokaż przyciski -/+ przybliżenia</string>
+    <string name="preference_show_zoom_controls_summary">Wyświetla przyciski -/+ do kontroli stopnia przybliżenia</string>
+    <string name="preference_show_zoom_slider_controls">Pokaż suwak przybliżenia</string>
+    <string name="preference_show_zoom_slider_controls_summary">Wyświetla suwak ustawienia stopnia przyliżenia</string>
+    <string name="fs_small">Mały</string>
+    <string name="fs_normal">Średni</string>
+    <string name="fs_large">Duży</string>
+    <string name="preference_popup_color">Kolor</string>
+    <string name="preference_resolution">Rozdzielczość</string>
+    <string name="grid">Kratka</string>
+    <string name="preference_screen_shutter_button">Migawka</string>
+    <string name="preference_show_take_photo">Pokaż ikonę Zrób zdjęcie</string>
+    <string name="preference_show_take_photo_summary">Pokazuje przycisk do robienia zdjęć i nagrywania filmów. Można go wyłączyć na urządzeniach, które posiadają fizyczny przycisk aparatu.</string>
+    <string name="preference_immersive_mode">Tryb pełnoekranowy</string>
+    <string name="preference_show_toasts">Pokaż wyskakujące powiadomienia</string>
+    <string name="preference_show_toasts_summary">Czy pokazywać wyskakujące powiadomienia</string>
+    <string name="preference_thumbnail_animation">Pokaż animację miniaturki</string>
+    <string name="preference_thumbnail_animation_summary">Wyświetla animowaną miniaturkę po wykonaniu zdjęcia</string>
+    <string name="preference_take_photo_border">Pokazuj ramkę</string>
+    <string name="preference_take_photo_border_summary">Wyświetla ramkę wokół ekranu po wykonaniu zdjęcia</string>
+    <string name="preference_keep_display_on">Utrzymuj ekran włączony</string>
+    <string name="preference_keep_display_on_summary">Ekran nie wyłączy się jeśli główny ekran HedgeCam jest aktywny</string>
+    <string name="preference_max_brightness">Wymuś maksymalną jasność</string>
+    <string name="preference_max_brightness_summary">Wymusza maksymalną jasność ekranu pomijając aktualne systemowe ustawienia</string>
+    <string name="preference_screen_preview">Podgląd</string>
+    <string name="preference_rotate_preview">Obracanie podglądu</string>
+    <string name="preference_rotate_preview_summary">"%s
+
+Umożliwia obtót podglądu (nie wpływa na zapisywane pliki)"</string>
+    <string name="dont_rotate">Nie obracaj</string>
+    <string name="rotate_180_degrees">Obróć o 180 stopni</string>
+    <string name="preference_show_zoom">Pokaż przybliżenie</string>
+    <string name="preference_show_zoom_summary">Wyświetla poziom przybliżenia na ekranie (jeśli</string>
+    <string name="preference_show_iso">Pokaż ISO</string>
+    <string name="preference_show_iso_summary">Wyświetla aktualną czułość ISO. Przy załączonej lampie, pojawi się także symbol lampy błyskowej jeśli ta ma się zaświecić. (wymaga Camera2 API)</string>
+    <string name="preference_free_memory">Pokaż dostepną pamięć</string>
+    <string name="preference_free_memory_summary">Wyświetla na ekranie dostępną w urządzeniu wolną pamięć</string>
+    <string name="preference_show_angle">Pokaż kąt</string>
+    <string name="preference_show_angle_summary">Wyświetla na ekranie aktualny kąt odchylenia urządzenia od poziomu</string>
+    <string name="preference_show_angle_line">Pokaż linię poziomu</string>
+    <string name="preference_show_angle_line_summary">Wyświetla poziomą linię</string>
+    <string name="preference_angle_highlight_color">Wyróżnienie kąta</string>
+    <string name="preference_angle_highlight_color_summary">"%s
+
+Kąt wyświetli się w jaskrawym kolorze gdy będzie bliski poziomu"</string>
+    <string name="preference_show_pitch_lines">Pokaż linie pochylenia</string>
+    <string name="preference_show_pitch_lines_summary">Wyświetla poziome linie przechylenia</string>
+    <string name="preference_show_geo_direction">Pokaż kompas</string>
+    <string name="preference_show_geo_direction_summary">Wyświetla kompas na ekranie</string>
+    <string name="preference_show_geo_direction_lines">Pokaż linie kompasu</string>
+    <string name="preference_show_geo_direction_lines_summary">Wyświetla linie kierunkowe kompasu</string>
+    <string name="preference_show_time">Pokaż czas</string>
+    <string name="preference_show_time_summary">Wyświetla na ekranie aktualny czas</string>
+    <string name="preference_show_battery">Pokaż baterię</string>
+    <string name="preference_show_battery_summary">Wyświetla na ekranie aktualny poziom baterii</string>
+    <string name="preference_grid">Pokaż kratkę</string>
+    <string name="g_phi_3x3">Phi 3x3</string>
+    <string name="g_crosshair">Celownik</string>
+    <string name="g_golden_1">Złoty podział (1)</string>
+    <string name="g_golden_2">Złoty podział (2)</string>
+    <string name="g_golden_3">Złoty podział (3)</string>
+    <string name="g_golden_4">Złoty podział (4)</string>
+    <string name="g_triangle_1">Trójkąty (1)</string>
+    <string name="g_triangle_2">Trójkąty (2)</string>
+    <string name="g_diagonals">Przekątne</string>
+    <string name="preference_crop_guide">Pokaż prowadnice kadrowania</string>
+    <string name="preference_crop_guide_summary">"%s
+
+Prowadnice pokazują jak wyglądają wybrane proporcje obrazu. Jest to przydatne gdy chcemy później przyciąć zdjęcie do innych proporcji niż plik z aparatu. Wymaga trybu WYSIWYG lub trybu filmowania"</string>
+    <string name="preference_screen_buttons">Klawiatura fizyczna</string>
+    <string name="preference_button_headset">Zestaw słuchawkowy</string>
+    <string name="preference_button_prev">Poprzedni</string>
+    <string name="preference_button_next">Następny</string>
+    <string name="preference_button_play">Odtwórz/wstrzymaj</string>
+    <string name="preference_button_stop">Zatrzymaj</string>
+    <string name="preference_button_camera">Aparat</string>
+    <string name="preference_button_search">Szukaj</string>
+    <string name="ba_shutter">Zrób zdjęcie (lub rozpocznij/zakończ filmowanie)</string>
+    <string name="ba_autofocus">Ustaw ostrość</string>
+    <string name="ba_nothing">Nic nie rób</string>
+    <string name="preference_screen_camera_controls_more">Więcej ustawień aparatu…</string>
+    <string name="preference_pause_preview">Pauza po zrobieniu zdjęcia</string>
+    <string name="preference_pause_preview_summary">Wstrzymaj podgląd po zrobieniu zdjęcia, z możliwością udostępnienia lub usunięcia</string>
+    <string name="preference_lock_orientation">Zablokuj orientację zdjęcia/wideo</string>
+    <string name="no_lock">Brak blokady</string>
+    <string name="lock_landscape">Blokada w poziomie</string>
+    <string name="lock_portrait">Blokada w pionie</string>
+    <string name="preference_lock_orientation_summary">"%s
+
+Jeśli ustawione, orientacja urządzenia będzie pomijana i zostanie zastosowana określona"</string>
+    <string name="preference_show_when_locked">Pokaż aparat gdy zablokowany</string>
+    <string name="preference_show_when_locked_summary">Jeśli włączone, HedgeCam będzie widoczny ponad ekranem blokady (dostęp do opcji, galerii itp. wymaga odblokowania)</string>
+    <string name="preference_startup_focus">Automatyczne ustawianie ostrości podczas uruchamiania</string>
+    <string name="preference_startup_focus_summary">Czy autofokus ma być uruchamiany podczas włączania aplikacji. Jeśli występuje problem z włączaniem lampy błyskowej podczas uruchamiania, wyłącz tę opcję</string>
+    <string name="preference_camera2_fake_flash">Użyj alternatywnej lampy błyskowej</string>
+    <string name="preference_camera2_fake_flash_summary">"%s
+
+Włącz jeśli w Twoim urządzeniu lampa błyskowa przejawia dziwne zachowanie z Camera2 API"</string>
+    <string name="preference_category_camera_quality">Ustawienia zdjęć i filmów</string>
+    <string name="preference_screen_photo_settings">Ustawienia zdjęć…</string>
+    <string name="preference_quality">Jakość obrazu</string>
+    <string name="preference_auto_stabilise">Autopoziomowanie</string>
+    <string name="preference_auto_stabilise_summary">Zdjęcia będą obracane i wyrównane do poziomu (wolniejszy zapis zdjęcia, może się nie udać na urządzeniach z małą ilością pamięci)</string>
+    <string name="preference_expo_bracketing_n_images">Bracketing ekspozycji</string>
+    <string name="preference_expo_bracketing_n_images_summary">"%s
+
+Ilość obrazów w trybie bracketingu"</string>
+    <string name="preference_expo_bracketing_stops">Stopniowanie Bracketingu</string>
+    <string name="preference_hdr_save_expo">Zapisz wszystkie zdjęcia HDR</string>
+    <string name="preference_hdr_save_expo_summary">W trybie HDR zapisuje wszystkie zdjęcia, które posłużyły do powstania obrazu HDR. Może to spowodować wolniejszy zapis, zwłaszcza przy włączonej opcji stemplowania lub autopoziomowania.</string>
+    <string name="preference_category_stamp">Stempel zdjęcia</string>
+    <string name="preference_stamp">Stempluj zdjęcia</string>
+    <string name="preference_stamp_summary">Stempluje zdjęcia datą i czasem, jeśli są dostępne także danymi z GPS</string>
+    <string name="preference_stamp_dateformat">Format daty stempla</string>
+    <string name="preference_stamp_timeformat">Format czasu stempla</string>
+    <string name="tf_12_hour">12 godzinny</string>
+    <string name="tf_24_hour">24 godzinny</string>
+    <string name="preference_stamp_gpsformat">Format stempla GPS</string>
+    <string name="degrees_minutes_seconds">Stopnie/minuty/sekundy</string>
+    <string name="preference_textstamp">Własny tekst</string>
+    <string name="preference_textstamp_summary">Określa własny tekst na stemplu</string>
+    <string name="preference_stamp_font_color">Kolor</string>
+    <string name="preference_camera2_fast_burst">Włącz szybki HDR/bracketing</string>
+    <string name="preference_camera2_fast_burst_summary">Pozwala na szybsze wykonywanie zdjęć HDR lub bracketing. Wyłącz jeśli na Twoim urządzeniu powoduje błędy.</string>
+    <string name="preference_screen_video_settings">Ustawienia filmów…</string>
+    <string name="video_quality">Rozdzielczość filmów</string>
+    <string name="preference_video_stabilization">Włącz stabilizację obrazu</string>
+    <string name="preference_video_stabilization_summary">Stabilizacja redukuje wstrząsy wywołane ruchem urządzenia. Działa w podglądzie jak i w zapisywanym pliku.</string>
+    <string name="preference_video_bitrate">Bitrate filmów (przybliżone)</string>
+    <string name="preference_video_bitrate_summary">"%s
+
+Ustawia przybliżone bitrate filmów (wyższe oznacza lepszą jakość, ale zabiera więcej pamięci; ustawienie nieobsługiwanego bitrate może spowodować błąd zapisu)"</string>
+    <string name="preference_video_fps">Częstotliwość klatek (przybliżone)</string>
+    <string name="preference_video_fps_summary">"%s
+
+Ustawia częstotliwość klatek (kl/s) filmów (może być przybliżona, ustawienie nieobsługiwanej wartości może spowodować błąd zapisu)"</string>
+    <string name="preference_video_max_duration">Maksymalny czas trwania</string>
+    <string name="preference_video_max_duration_summary">"%s
+
+Nagrywanie filmu zostanie zatrzymane po określonym czasie"</string>
+    <string name="preference_video_restart">Restart nagrywania po maksymalnym czasie</string>
+    <string name="dont_restart">Nie restartuj</string>
+    <string name="repeat_1_time">Powtórz 1 raz</string>
+    <string name="repeat_2_times">Powtórz 2 razy</string>
+    <string name="repeat_3_times">Powtórz 3 razy</string>
+    <string name="repeat_4_times">Powtórz 4 razy</string>
+    <string name="repeat_5_times">Powtórz 5 razy</string>
+    <string name="repeat_6_times">Powtórz 6 razy</string>
+    <string name="repeat_7_times">Powtórz 7 razy</string>
+    <string name="repeat_8_times">Powtórz 8 razy</string>
+    <string name="repeat_9_times">Powtórz 9 razy</string>
+    <string name="repeat_10_times">Powtórz 10 razy</string>
+    <string name="preference_video_restart_summary">"%s
+
+Po zatrzymaniu nagrywania po maksymalnym czasie (jeśli jest ustawiony) zostanie rozpoczęte nowe nagranie (określoną ilość razy)."</string>
+    <string name="preference_video_max_filesize">Maksymalny rozmiar pliku</string>
+    <string name="preference_video_max_filesize_summary">"%s
+
+Nagrywanie filmu zostanie zatrzymane jeśli plik osiągnie określony rozmiar. Większość urządzeń z Androidem ma ustawioną maksymalną wielkość pliku wideo (2GB lub 4GB), ale ta opcja pozwala ustalić konkretną wartość"</string>
+    <string name="preference_video_restart_max_filesize">Restart nagrywania po maksymalnym rozmiarze</string>
+    <string name="preference_video_restart_max_filesize_summary">Automatyczny restart nagrywania gdy rozmiar pliku osiągnie ustawioną maksymalną wartość</string>
+    <string name="preference_record_audio">Nagrywanie z dźwiękiem</string>
+    <string name="preference_record_audio_summary">Nagrywanie filmu wraz z dźwiękiem</string>
+    <string name="preference_record_audio_src">Źródło dźwięku</string>
+    <string name="as_camcorder">Aparat</string>
+    <string name="as_external_mic">Zewnętrzny mikrofon (jeśli podłączony)</string>
+    <string name="as_default_source">Domyślne źródło dźwięku</string>
+    <string name="as_voice_optimized">Zoptymalizowane dla głosu</string>
+    <string name="preference_record_audio_channels">Kanały dźwięku</string>
+    <string name="preference_record_audio_channels_summary">"%s
+
+Wybór między dźwiękiem mono a stereo (dostępne na niektórych urządzeniach)"</string>
+    <string name="am_mono">Mono</string>
+    <string name="am_stereo">Stereo (dostępne na niektórych urządzeniach)</string>
+    <string name="preference_lock_video">Blokowanie ekranu podczas nagrywania filmu</string>
+    <string name="preference_lock_video_summary">Podczas nagrywania filmu interfejs jest blokowany aby zapobiec przypadkowemu zatrzymaniu. Przeciągnij ekran aby odblokować. Nagrywanie zostanie przerwane jeśli aplikacja działa w tle lub ekran jest pusty.</string>
+    <string name="preference_video_subtitle">Napisy</string>
+    <string name="preference_video_subtitle_summary">"%s
+
+Tworzy napisy (w formacie SRT), w których zapisywane są data, czas i dane GPS jeśli są włączone"</string>
+    <string name="no_subtitles">Bez napisów</string>
+    <string name="record_subtitles">Z napisami</string>
+    <string name="preference_force_video_4k">Wymuś nagrywanie filmów 4K UHD (działa tylko z niektórymi urządzeniami)</string>
+    <string name="preference_force_video_4k_summary">Włącza rozdzielczość 3840x2160 przy nagrywaniu filmów z tylnego aparatu. Ta opcja to hack, który pozwala urządzeniom z obsługą 4K na nagrywanie filmów w 4K mimo zablokowania takiej możliwości dla niefirmowych aplikacji nagrywających. Nie ma gwarancji, że to zadziała, proszę przetestować.</string>
+    <string name="preference_video_low_power_check">Sprawdzanie niskiego poziomu baterii</string>
+    <string name="preference_video_low_power_check_summary">Zatrzymuje filmowanie jeśli poziom baterii jest krytycznie niski. Zapobiega to utracie pliku z filmem w przypadku całkowitego wyczerpania się baterii.</string>
+    <string name="preference_video_flash">Wskaźnik nagrywania</string>
+    <string name="preference_video_flash_summary">Jeśli włączone, lampa błyskowa będzie się włączać i wyłączać (przydatne w przypadku gdy chcemy z większej odległości stwierdzić czy aparat wciąż nagrywa)</string>
+    <string name="preference_antibanding">Antybanding</string>
+    <string name="preference_edge">Ostrość</string>
+    <string name="nr_zero_shutter_lag">Brak opóźnienia migawki</string>
+    <string name="preference_save_location">Lokalizacja zapisu</string>
+    <string name="preference_save_location_summary">Folder, do którego będą zapisywane pliki</string>
+    <string name="preference_using_saf">Używaj SAF (systemowa obsługa dostępu do pamięci)</string>
+    <string name="preference_using_saf_summary">Używa Storage Access Framework do zapisu plików zdjęć i filmów</string>
+    <string name="preference_save_photo_prefix">Przedrostek nazw zdjęć</string>
+    <string name="preference_save_photo_prefix_summary">Przedrostek używany w nazwach plików zdjęć</string>
+    <string name="preference_save_video_prefix">Przedrostek nazw filmów</string>
+    <string name="preference_save_video_prefix_summary">Przedrostek używany w nazwach plików filmów</string>
+    <string name="preference_save_zulu_time">Format czasu w nazwie pliku</string>
+    <string name="t_local_time">Czas lokalny</string>
+    <string name="t_utc_zulu">UTC (Zulu)</string>
+    <string name="preference_screen_location_settings">Ustawienia lokalizacji…</string>
+    <string name="preference_location">Zapisuj dane geolokalizacji</string>
+    <string name="preference_location_summary">Zapisuje współrzędne geograficzne w zdjęciach i filmach</string>
+    <string name="preference_gps_direction">Zapisuj kierunek kompasu</string>
+    <string name="preference_gps_direction_summary">Zapisuje kierunek kompasu GPS</string>
+    <string name="preference_require_location">Wymagaj danych geolokalizacji</string>
+    <string name="preference_require_location_summary">Jeśli zapisywanie danych geolokalizacyjnych jest włączone, zapisanie zdjęcia lub filmu nastąpi tylko gdy te dane są dostępne</string>
+    <string name="preference_category_online">Różne</string>
+    <string name="preference_online_help">Pomoc online</string>
+    <string name="preference_online_help_summary">Otwiera stronę HedgeCam w przeglądarce internetowej</string>
+    <string name="preference_use_camera2">Używaj Camera2 API</string>
+    <string name="preference_use_camera2_summary">Włącza Camera2 API, które oferuje wiele dodatkowych funkcji, ale może działać niepoprawnie na niektórych urządzeniach (może spowodować restart)</string>
+    <string name="preference_donate">Przekaż darowiznę</string>
+    <string name="preference_donate_summary">Jeśli spodobała Ci się ta aplikacja rozważ przekazanie darowizny, która wesprze rozwój aplikacji. Możesz to zrobić poprzez zakup specjalnej aplikacji - dotknij tutaj aby otworzyć stronę. Dzięki!</string>
+    <string name="preference_about">O aplikacji</string>
+    <string name="preference_info">Informacje o aplikacji i debugowanie</string>
+    <string name="about_copy_to_clipboard">Kopiuj do schowka</string>
+    <string name="preference_reset">Reset ustawień</string>
+    <string name="preference_reset_summary">Resetuje wszystkie ustawienia do domyślnych wartości</string>
+    <string name="preference_advanced">Funkcje zaawansowane</string>
+    <string name="time_1_second">1 sekunda</string>
+    <string name="time_2_seconds">2 sekundy</string>
+    <string name="time_3_seconds">3 sekundy</string>
+    <string name="time_5_seconds">5 sekund</string>
+    <string name="time_10_seconds">10 sekund</string>
+    <string name="time_15_seconds">15 sekund</string>
+    <string name="time_20_seconds">20 sekundy</string>
+    <string name="time_30_seconds">0,5 minuty</string>
+    <string name="time_1_minute">1 minuta</string>
+    <string name="time_2_minutes">2 minuty</string>
+    <string name="time_3_minutes">3 minuty</string>
+    <string name="time_5_minutes">5 minut</string>
+    <string name="time_7_minutes">7 minut</string>
+    <string name="time_10_minutes">10 minut</string>
+    <string name="time_12_minutes">12 minut</string>
+    <string name="time_15_minutes">15 minut</string>
+    <string name="time_20_minutes">20 minuty</string>
+    <string name="time_25_minutes">25 minuty</string>
+    <string name="time_30_minutes">0,5 godziny</string>
+    <string name="time_45_minutes">45 minuty</string>
+    <string name="time_1_hour">1 godzina</string>
+    <string name="time_2_hours">2 godziny</string>
+    <string name="camera">Aparat</string>
+    <string name="pause_video">Pauza w filmowaniu</string>
+    <string name="resume_video">Kontynuowanie filmowania</string>
+    <string name="max_filesize">Maksymalny rozmiar pliku</string>
+    <string name="video_pause">Film wstrzymany</string>
+    <string name="video_resume">Film wznowiony</string>
+    <string name="camera_error">Poważny błąd aparatu</string>
+    <string name="permission_rationale_location">Pozwolenie na dostęp do lokalizacji jest wymagane do geotagowania</string>
+    <string name="raw_info">"Pliki DNG zawierają nieskompresowane i nieprzetworzone dane z aparatu.
+
+Większość aplikacji nie obsługuje formatu DNG dlatego najlepiej używać do ich edycji specjalnych aplikacji np. Snapseed lib Lightroom.
+
+Opcje takie jak stemplowanie lub autopoziomowanie nie mają zastosowania do plików DNG.
+
+Pliki w formacie DNG zajmują dużo miejsca. Do przenoszenia lub kasowania ich można użyć menedżera plików.
+
+Format DNG jest dostępny tylko w trybie standardowym i DRO."</string>
+    <string name="exposure_shutter_speed">Czas migawki</string>
+    <string name="preference_background_photo_saving">Użyj wątku w tle</string>
+    <string name="preference_background_photo_saving_summary">Używanie wątku aplikacji działającego w tle do zapisu zdjęć (szybsze operacje)</string>
+</resources>

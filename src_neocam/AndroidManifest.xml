@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    package="com.arkaneel.hedgecam.neocamera"
+    platformBuildVersionCode="28"
+    platformBuildVersionName="9"
+    android:installLocation="auto"
+    android:compileSdkVersion="28"
+    android:compileSdkVersionCodename="9"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <supports-screens
+        android:anyDensity="true"
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:xlargeScreens="true" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_MEDIA_STORAGE" />
+    <uses-permission
+        android:name="android.permission.CAMERA" />
+    <uses-permission
+        android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission
+        android:name="com.android.vending.BILLING" />
+    <uses-feature
+        android:name="android.hardware.camera" />
+    <uses-feature
+        android:name="android.hardware.microphone" />
+    <application
+        android:theme="@style/AppTheme"
+        android:label="NeoCamera"
+        android:icon="@mipmap/ic_launcher"
+        android:allowBackup="true"
+        android:largeHeap="true">
+        <activity
+            android:label="NeoCamera"
+            android:name="com.caddish_hedgehog.hedgecam2.MainActivity"
+            android:clearTaskOnLaunch="true"
+            android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="android.media.action.IMAGE_CAPTURE" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="android.media.action.IMAGE_CAPTURE_SECURE" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="android.media.action.STILL_IMAGE_CAMERA" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="android.media.action.STILL_IMAGE_CAMERA_SECURE" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="android.media.action.VIDEO_CAMERA" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="android.media.action.VIDEO_CAPTURE" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="@string/take_photo"
+            android:icon="@mipmap/ic_launcher_take_photo"
+            android:name="com.caddish_hedgehog.hedgecam2.TakePhoto"
+            android:taskAffinity=""
+            android:excludeFromRecents="true"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:label="@string/take_video"
+            android:icon="@mipmap/ic_launcher_take_video"
+            android:name="com.caddish_hedgehog.hedgecam2.TakeVideo"
+            android:taskAffinity=""
+            android:excludeFromRecents="true"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <receiver
+            android:label="NeoCamera"
+            android:icon="@mipmap/ic_launcher"
+            android:name="com.caddish_hedgehog.hedgecam2.MyWidgetProvider">
+            <intent-filter>
+                <action
+                    android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info" />
+        </receiver>
+        <receiver
+            android:label="@string/take_photo"
+            android:icon="@mipmap/ic_launcher_take_photo"
+            android:name="com.caddish_hedgehog.hedgecam2.MyWidgetProviderTakePhoto">
+            <intent-filter>
+                <action
+                    android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info_take_photo" />
+        </receiver>
+        <receiver
+            android:label="@string/take_video"
+            android:icon="@mipmap/ic_launcher_take_video"
+            android:name="com.caddish_hedgehog.hedgecam2.MyWidgetProviderTakeVideo">
+            <intent-filter>
+                <action
+                    android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info_take_photo" />
+        </receiver>
+        <service
+            android:label="@string/camera"
+            android:icon="@drawable/ic_photo_camera"
+            android:name="com.caddish_hedgehog.hedgecam2.MyTileService"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action
+                    android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+        <service
+            android:label="@string/record_video"
+            android:icon="@drawable/ic_videocam"
+            android:name="com.caddish_hedgehog.hedgecam2.MyTileServiceVideo"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action
+                    android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

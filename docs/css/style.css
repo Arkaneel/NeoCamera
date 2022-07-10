@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
+*{
+				padding: 0;
+				margin: 0;
+				box-sizing: border-box;
+				scroll-behavior: smooth;
+}
+body{
+				background-color: #ffdc55;
+}
+.nav{
+				background-color: #ffdc55;
+				height:80px;
+				width: 100vw;
+				text-align: center;
+				box-shadow: 0 0 15px #000;
+				color: #100407;
+}
+.brand {
+				width: 50px;
+				height: 50px;
+     margin-left: 10px;
+     margin-top: 15px;
+     box-shadow: 0 0 7px #000;
+     border-radius: 50px;
+     border: 2px solid #ffc72b;
+     float: left;
+}
+
+#demo-menu-lower-right{
+				float: right;
+				margin-top: 20px;
+				margin-right: 20px;
+}
+.mdl-menu__item a{
+				text-decoration: none;
+				cursor: none;
+				transition: 0.5s;
+				color: black;
+}
+#home{
+				text-align: center;
+}
+.intro{
+				font-size: 40px;
+				margin-top: 50px;
+				font-family: 'Fascinate Inline', cursive;
+}
+.home-data{
+				height: 250px;
+				width: 250px;
+}
+.text{
+				margin: 35px;
+				font-size: 20px;
+				font-family: monospace;
+				font-weight: bold;
+}
+#about{
+				text-align: center;
+				margin-top: 50px;
+				border-top: 10px solid black;
+				border-bottom: 10px solid black;
+}
+#about p{
+				margin-top: 35px;
+				margin-bottom: 25px;
+				margin-left: 20px;
+				margin-right: 20px;
+				font-size: 20px;
+				font-family: monospace;
+				font-weight: bold;
+}
+#about h3{
+				margin-top: 35px;
+				margin-bottom: 25px;
+				margin-left: 20px;
+				margin-right: 20px;
+				font-size: 25px;
+				font-family: monospace;
+				font-weight: bold;
+}
+.round{
+				border-radius: 10px;
+}
+#contact{
+				text-align: center;
+				margin-top: 50px;
+				border-bottom: 10px solid black;
+				font-family: monospace;
+}
+#contact h2{
+				font-family: 'Fascinate Inline' , cursive;
+}
+#contact textarea{
+  resize:vertical;
+  height:150px;
+  width: 266px;
+  padding: 15px;
+  outline: none;
+}
+#contact input{
+  width: 266px;
+  height: 45px;
+  padding: 15px;
+  outline: none;
+}
+#contact button{
+  width: 70px;
+  height: 35px;
+  border-radius: 50px;
+  border:none;
+  background-color:#ff742b;
+  color: #fff;
+  font-family: monospace;
+  margin-bottom: 30px;
+}
+#download{
+				text-align: center;
+				margin-top: 50px;
+				border-bottom: 10px solid black;
+				font-family: monospace;
+}
+#download h2{
+				font-family: 'Fascinate Inline' , cursive;
+}
+#download a{
+  text-decoration: none;
+  color: #000;
+}
+button {
+	margin: 20px;
+}
+.custom-btn {
+	width: 160px;
+	height: 60px;
+	border-radius: 5px;
+	padding: 10px 25px;
+	font-family: 'Monospace';
+	font-weight: 900;
+	cursor: pointer;
+	font-size: 16px;
+	outline: none;
+	border: transparent;
+	color: #000;
+	text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
+	box-shadow:0 0 10px #000;
+}
+.custom-btn:active {
+	transform: translate(2px);
+	-webkit-transform: translate(2px);
+}
+.btn-7 {
+	background: linear-gradient(#c5c5c5, #e6e6e6);
+}
+#download p{
+				margin-top: 35px;
+				margin-bottom: 25px;
+				margin-left: 20px;
+				margin-right: 20px;
+				font-size: 20px;
+				font-family: monospace;
+				font-weight: bold;
+}
+#download .doggo a{
+  text-decoration: underline;
+}

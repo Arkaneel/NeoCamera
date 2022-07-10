@@ -1,0 +1,32 @@
+{
+  "apkFileName": "base_mod.apk",
+  "VersionInfo": {
+    "versionName": "1.0.0",
+    "versionCode": "23"
+  },
+  "UsesFramework": {
+    "ids": [1],
+    "tag": null
+  },
+  "unknownFiles": {},
+  "PackageInfo": {
+    "forcedPackageId": "127",
+    "renameManifestPackage": null
+  },
+  "doNotCompress": [
+    "AndroidManifest.xml",
+    "resources.arsc",
+    "png",
+    "res/mipmap-anydpi-v26/ic_launcher.xml",
+    "ogg"
+  ],
+  "isFrameworkApk": false,
+  "compressionType": false,
+  "sparseResources": false,
+  "version": "2.4.0-220701",
+  "sharedLibrary": false,
+  "sdkInfo": {
+    "minSdkVersion": "21",
+    "targetSdkVersion": "28"
+  }
+}
